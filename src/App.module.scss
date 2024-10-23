@@ -1,0 +1,67 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.imageUploader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.fileInputLabel {
+  border: 2px dashed #00bcef;
+  border-radius: 6px;
+  background-color: #eefbff;
+  padding: 8px 12px;
+  cursor: pointer;
+  color: #00bcef;
+}
+
+.fileInput {
+  display: none;
+}
+
+.imageAndText {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.selectedImage {
+  width: 300px;
+}
+
+.convertButton {
+  align-self: center;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background-color: #00bcef;
+  font-size: 16px;
+  color: #ffffff;
+
+  &.hidden {
+    visibility: hidden;
+  }
+}
+
+.progress {
+  align-self: center;
+  width: 80px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.output {
+  width: 300px;
+}
+
+.textResult {
+  font-size: 20px;
+}
